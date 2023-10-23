@@ -25,7 +25,7 @@ CC=/usr/lib/llvm-9/bin/clang-cpp CXX=/usr/lib/llvm-9/bin/clang++                
 cmake -DCMAKE_INSTALL_PREFIX=/usr               \
       -DLLVM_GRIGGORII_EXAMPLE=ON                 \
       -Wno-dev -G Ninja ..                      &&
-ninja && ninja install/usr/lib/llvm-9/bin/llvm-strip
+ninja install/usr/lib/llvm-9/bin/llvm-strip
 
 
 
