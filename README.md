@@ -15,7 +15,9 @@ Example configure
 
 ./configure CXX=/usr/lib/llvm-9/bin/clang++ --flag_1 --flag2
 
-./configure CC=/usr/lib/llvm-9/bin/clang-cpp CXX=/usr/lib/llvm-9/bin/clang++
+and
+
+./configure CC=/usr/lib/llvm-9/bin/clang-cpp CXX=/usr/lib/llvm-9/bin/clang++ --flag_1 --flag2
 
 Cmake example
 
