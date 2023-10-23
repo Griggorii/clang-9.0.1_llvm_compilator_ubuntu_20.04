@@ -29,7 +29,7 @@ cmake -DCMAKE_INSTALL_PREFIX=/usr               \
       -Wno-dev -G Ninja ..                      &&
 ninja install/usr/lib/llvm-9/bin/llvm-strip
 
-Example cpp
+Example cpp bon_io.cpp
 
 /usr/lib/llvm-9/bin/clang++ -O2  -DNDEBUG -Wall -W -Wshadow -Wpointer-arith -Wwrite-strings -pedantic -ffor-scope   -c bon_io.cpp
 
