@@ -11,6 +11,19 @@ sudo tar xvf clang-9.0.1_llvm-cros_Ubuntu_20.04.tar.gz -C/
 
 sudo ln -s 
 
-Example
+Example configure
+
+./configure CXX=/usr/lib/llvm-9/bin/clang++ --flag_1 --flag2
 
 ./configure CC=/usr/lib/llvm-9/bin/clang-cpp CXX=/usr/lib/llvm-9/bin/clang++
+
+Cmake example
+
+CC=/usr/lib/llvm-9/bin/clang-cpp CXX=/usr/lib/llvm-9/bin/clang++                                \
+cmake -DCMAKE_INSTALL_PREFIX=/usr               \
+      -DLLVM_GRIGGORII_EXAMPLE=ON                 \
+      -Wno-dev -G Ninja ..                      &&
+ninja
+
+
+
