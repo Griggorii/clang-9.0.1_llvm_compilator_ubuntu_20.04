@@ -15,9 +15,9 @@ ________________________________________________________________________________
 
 Example configure
 
-./configure CXX=/usr/lib/llvm-9/bin/clang++ --enable-strip flag_1 -flag_2
+./configure CXX=/usr/lib/llvm-9/bin/clang++ -enable-strip flag_1 -flag_2
 
-and
+and varian 2
 
 ./configure CC=/usr/lib/llvm-9/bin/clang-cpp CXX=/usr/lib/llvm-9/bin/clang++ -enable-strip -flag_1 -flag_2
 
