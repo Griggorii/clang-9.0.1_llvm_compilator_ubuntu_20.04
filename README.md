@@ -9,15 +9,15 @@ md5sum 6b98742a028d0d650872008fdce5f4f7 'clang-9.0.1_llvm-cros_Ubuntu_20.04.tar.
 
 sudo tar xvf clang-9.0.1_llvm-cros_Ubuntu_20.04.tar.gz -C/
 
-sudo ln -s 
+_______________________________________________________________________________________________________________
 
 Example configure
 
-./configure CXX=/usr/lib/llvm-9/bin/clang++ --flag_1 --flag2
+./configure CXX=/usr/lib/llvm-9/bin/clang++ --flag_1 --flag_2
 
 and
 
-./configure CC=/usr/lib/llvm-9/bin/clang-cpp CXX=/usr/lib/llvm-9/bin/clang++ --flag_1 --flag2
+./configure CC=/usr/lib/llvm-9/bin/clang-cpp CXX=/usr/lib/llvm-9/bin/clang++ --flag_1 --flag_2
 
 Cmake example
 
